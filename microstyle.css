@@ -63,7 +63,21 @@ html{
     height: 20px;
     padding-left: 5px;
 }
-.navright .navitem .scrolldown{
-    
-}
+.bodycontainer{
+    position: relative;
+  text-align: center;
+  color: white;
 
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bodycontainer .intro{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.bodycontainer .intro img{
+    width:100%;
+}
