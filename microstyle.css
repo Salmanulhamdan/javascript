@@ -1,0 +1,69 @@
+html{
+    font-family: sans-serif;
+}
+.navcontainer{
+    
+    width: 100%;
+    display: flex;   
+    align-items: center;
+   
+  
+}
+.navcontainer .logo{
+    margin-top: -3px;
+    max-width: none;
+    width: 108px;
+    padding-left: 100px;
+}
+.navcontainer .logo img{
+    margin-top: -3px;
+    max-width: none;
+    width: 108px;
+}
+.navcontainer .navitems{
+    
+    display: flex;
+    padding-left: 16px;
+   
+   
+    
+}
+.navcontainer .navitem{
+    padding: 16px 8px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+   
+    
+}
+.navcontainer .navright{
+  
+    display: flex;
+   
+    float: right;
+    position: absolute;
+    right: 50px;
+}
+.navcontainer .navitem img{
+   
+    width: 20px;
+    height: 20px;
+    padding-left: 8px;
+   
+}
+.navcontainer .navitem i{
+   
+    width: 20px;
+    height: 20px;
+    padding-left: 3px;
+   
+}
+.addicon{
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+}
+.navright .navitem .scrolldown{
+    
+}
+
