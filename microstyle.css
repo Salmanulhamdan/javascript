@@ -72,7 +72,7 @@ html{
 .text{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 350px;
     transform: translate(-50%, -50%);
 }
 .bodycontainer .intro{
@@ -80,4 +80,43 @@ html{
 }
 .bodycontainer .intro img{
     width:100%;
+}
+.bodycontainer .intro .text{
+    width:465px;
+}
+.bodycontainer .intro .text h1{
+    text-align: left;
+    font-size: 37px;
+    font-weight: 600;
+}
+.bodycontainer .intro .text .link{
+    height: 40px;
+    width:200px;
+    text-align: left;
+    padding-left: 10px;
+    background-color:#0067b8;
+    align-items: center;
+    border-radius: 2px;
+}
+.bodycontainer .intro .text .link p{
+   
+    padding-top: 8px; 
+    font-weight: 600;
+   
+}
+
+
+.bodycontainer .intro .text .link a{
+    text-decoration: none;
+    color: white;
+}
+table th, td{
+    border: 2px solid black;
+}
+#table{
+    display: none;
+}
+.navitem button{
+    border: none;
+    background: none;
 }

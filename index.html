@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="microstyle.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="micro.js"></script>
     <title>Microsoft</title>
 </head>
 <body>
+   
     <div class="container">
         <nav class="navcontainer">
             <div class="logo">
@@ -35,9 +37,17 @@
                 </div>
             </div>
             <div class="navright">
-                <div class="navitem">   
-                    <p class="scrolldown">All Microsoft</p>
-                   
+                <div class="navitem">
+                    <div class="button"> 
+                        <button class="open-button" onclick="openTable()">All Microsoft ></button>
+                        <div id="table">
+                            
+                        
+                        
+                
+                              
+                        </div>
+                    </div>
                 </div>
                 <div class="navitem">
                     <p>Search</p>
@@ -63,8 +73,9 @@
                 <div class="text">
                     <h1>Introducing the new Bing</h1>
                     <p>Ask real questions, get better answers and turn ideas into content with your AI-powered copilot for the web</p>
-                    <a href="#">Learn about the new bing</a>
-
+                    <div class="link">
+                        <p><a href="#">Learn about the new bing</a></p>
+                    </div>
                 </div>
             </div>
         </div>
